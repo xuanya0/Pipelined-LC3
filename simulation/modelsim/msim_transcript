@@ -1,0 +1,660 @@
+# Reading C:/altera/15.0/modelsim_ase/tcl/vsim/pref.tcl
+# do mp3_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3d Lib Mapping Utility 2014.10 Oct  7 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/15.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/lc3b_types.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:34 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/lc3b_types.sv 
+# -- Compiling package lc3b_types
+# 
+# Top level modules:
+# 	--none--
+# End time: 09:28:34 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/register.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/register.sv 
+# -- Compiling module register
+# 
+# Top level modules:
+# 	register
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/mux2.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/mux2.sv 
+# -- Compiling module mux2
+# 
+# Top level modules:
+# 	mux2
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/cccomp.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/cccomp.sv 
+# -- Compiling module cccomp
+# 
+# Top level modules:
+# 	cccomp
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/decode_mux.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/decode_mux.sv 
+# -- Compiling module decode_mux
+# 
+# Top level modules:
+# 	decode_mux
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/mem_indirect.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/mem_indirect.sv 
+# -- Compiling package mem_indirect_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module mem_indirect
+# 
+# Top level modules:
+# 	mem_indirect
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/forwarding_to_mem.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/forwarding_to_mem.sv 
+# -- Compiling package forwarding_to_mem_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module forwarding_to_mem
+# 
+# Top level modules:
+# 	forwarding_to_mem
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/dp_array.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/dp_array.sv 
+# -- Compiling package dp_array_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module dp_array
+# 
+# Top level modules:
+# 	dp_array
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/forwarding_to_ex.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/forwarding_to_ex.sv 
+# -- Compiling package forwarding_to_ex_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module forwarding_to_ex
+# 
+# Top level modules:
+# 	forwarding_to_ex
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/br_adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/br_adder.sv 
+# -- Compiling package br_adder_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module br_adder
+# 
+# Top level modules:
+# 	br_adder
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/opcode_decoder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/opcode_decoder.sv 
+# -- Compiling package opcode_decoder_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module opcode_decoder
+# 
+# Top level modules:
+# 	opcode_decoder
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/adj.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/adj.sv 
+# -- Compiling package adj_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module adj
+# 
+# Top level modules:
+# 	adj
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/regfile.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/regfile.sv 
+# -- Compiling package regfile_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/mem_wb_reg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/mem_wb_reg.sv 
+# -- Compiling package mem_wb_reg_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module mem_wb_reg
+# 
+# Top level modules:
+# 	mem_wb_reg
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/if_id_reg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/if_id_reg.sv 
+# -- Compiling package if_id_reg_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module if_id_reg
+# 
+# Top level modules:
+# 	if_id_reg
+# End time: 09:28:35 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/id_ex_reg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:35 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/id_ex_reg.sv 
+# -- Compiling package id_ex_reg_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module id_ex_reg
+# 
+# Top level modules:
+# 	id_ex_reg
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/gencc.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/gencc.sv 
+# -- Compiling package gencc_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module gencc
+# 
+# Top level modules:
+# 	gencc
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/ex_mem_reg.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/ex_mem_reg.sv 
+# -- Compiling package ex_mem_reg_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module ex_mem_reg
+# 
+# Top level modules:
+# 	ex_mem_reg
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/alu.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/alu.sv 
+# -- Compiling package alu_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/jsr_adder.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/jsr_adder.sv 
+# -- Compiling package jsr_adder_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module jsr_adder
+# 
+# Top level modules:
+# 	jsr_adder
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/stall_unit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/stall_unit.sv 
+# -- Compiling package stall_unit_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module stall_unit
+# 
+# Top level modules:
+# 	stall_unit
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/wb_retain.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/wb_retain.sv 
+# -- Compiling package wb_retain_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module wb_retain
+# 
+# Top level modules:
+# 	wb_retain
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/branch_prediction_unit.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/branch_prediction_unit.sv 
+# -- Compiling package branch_prediction_unit_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module branch_prediction_unit
+# 
+# Top level modules:
+# 	branch_prediction_unit
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/cpu.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/cpu.sv 
+# -- Compiling package cpu_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module cpu
+# 
+# Top level modules:
+# 	cpu
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/mp3.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/mp3.sv 
+# -- Compiling package mp3_sv_unit
+# -- Importing package lc3b_types
+# -- Compiling module mp3
+# 
+# Top level modules:
+# 	mp3
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/mp3_tb.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/mp3_tb.sv 
+# -- Compiling module mp3_tb
+# 
+# Top level modules:
+# 	mp3_tb
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/undergrad_misc/ece411/mp3 {D:/undergrad_misc/ece411/mp3/magic_memory_dp.sv}
+# Model Technology ModelSim ALTERA vlog 10.3d Compiler 2014.10 Oct  7 2014
+# Start time: 09:28:36 on Oct 01,2016
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/undergrad_misc/ece411/mp3" D:/undergrad_misc/ece411/mp3/magic_memory_dp.sv 
+# -- Compiling module magic_memory_dp
+# 
+# Top level modules:
+# 	magic_memory_dp
+# End time: 09:28:36 on Oct 01,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  mp3_tb
+# vsim -gui "+altera" -l msim_transcript -do "mp3_run_msim_rtl_verilog.do" 
+# Start time: 09:28:36 on Oct 01,2016
+# Loading sv_std.std
+# Loading work.mp3_tb
+# Loading work.lc3b_types
+# Loading work.cpu_sv_unit
+# Loading work.cpu
+# Loading work.stall_unit_sv_unit
+# Loading work.stall_unit
+# Loading work.decode_mux
+# Loading work.mux2
+# Loading work.register
+# Loading work.if_id_reg_sv_unit
+# Loading work.if_id_reg
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.opcode_decoder_sv_unit
+# Loading work.opcode_decoder
+# Loading work.id_ex_reg_sv_unit
+# Loading work.id_ex_reg
+# Loading work.forwarding_to_ex_sv_unit
+# Loading work.forwarding_to_ex
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.br_adder_sv_unit
+# Loading work.br_adder
+# Loading work.ex_mem_reg_sv_unit
+# Loading work.ex_mem_reg
+# Loading work.forwarding_to_mem_sv_unit
+# Loading work.forwarding_to_mem
+# Loading work.mem_indirect_sv_unit
+# Loading work.mem_indirect
+# Loading work.cccomp
+# Loading work.jsr_adder_sv_unit
+# Loading work.jsr_adder
+# Loading work.branch_prediction_unit_sv_unit
+# Loading work.branch_prediction_unit
+# Loading work.dp_array_sv_unit
+# Loading work.dp_array
+# Loading work.mem_wb_reg_sv_unit
+# Loading work.mem_wb_reg
+# Loading work.wb_retain_sv_unit
+# Loading work.wb_retain
+# Loading work.magic_memory_dp
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(75): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_0'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/pcmux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(75): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/pcmux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(75): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/pcmux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(75): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/pcmux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(86): [PCDPC] - Port size (1) does not match connection size (32) for port 'clear'. The port definition is at: D:/undergrad_misc/ece411/mp3/register.sv(5).
+# 
+#         Region: /mp3_tb/dut/pc_reg
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(91): [PCDPC] - Port size (16) does not match connection size (32) for port 'pc_in'. The port definition is at: D:/undergrad_misc/ece411/mp3/if_id_reg.sv(8).
+# 
+#         Region: /mp3_tb/dut/if_id_reg_1
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3017) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [TFMPC] - Too few port connections. Expected 16, found 15.
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_3'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (2) does not match connection size (32) for port 'in_3'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (2) does not match connection size (32) for port 'in_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (2) does not match connection size (32) for port 'in_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (2) does not match connection size (32) for port 'in_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3722) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [TFMPC] - Missing connection for port 'in_5'.
+# 
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(190): [PCDPC] - Port size (1) does not match connection size (32) for port 'clear'. The port definition is at: D:/undergrad_misc/ece411/mp3/register.sv(5).
+# 
+#         Region: /mp3_tb/dut/cc_reg
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(199): [PCDPC] - Port size (16) does not match connection size (32) for port 'from_source'. The port definition is at: D:/undergrad_misc/ece411/mp3/branch_prediction_unit.sv(6).
+# 
+#         Region: /mp3_tb/dut/branch_prediction_unit
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_3'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_3'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(222): [PCDPC] - Port size (3) does not match connection size (32) for port 'b'. The port definition is at: D:/undergrad_misc/ece411/mp3/mux2.sv(4).
+# 
+#         Region: /mp3_tb/dut/destReg_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(224): [PCDPC] - Port size (1) does not match connection size (32) for port 'clear'. The port definition is at: D:/undergrad_misc/ece411/mp3/wb_retain.sv(7).
+# 
+#         Region: /mp3_tb/dut/wb_retain
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 0 ns
+add wave -position insertpoint  \
+sim:/mp3_tb/dut/if_id_ir_out
+run 10us
+add wave -position insertpoint  \
+sim:/mp3_tb/dut/ex_mem_reg/operation
+restart -f 
+# Loading sv_std.std
+# Loading work.mp3_tb
+# Loading work.lc3b_types
+# Loading work.cpu_sv_unit
+# Loading work.cpu
+# Loading work.stall_unit_sv_unit
+# Loading work.stall_unit
+# Loading work.decode_mux
+# Loading work.mux2
+# Loading work.register
+# Loading work.if_id_reg_sv_unit
+# Loading work.if_id_reg
+# Loading work.regfile_sv_unit
+# Loading work.regfile
+# Loading work.opcode_decoder_sv_unit
+# Loading work.opcode_decoder
+# Loading work.id_ex_reg_sv_unit
+# Loading work.id_ex_reg
+# Loading work.forwarding_to_ex_sv_unit
+# Loading work.forwarding_to_ex
+# Loading work.adj_sv_unit
+# Loading work.adj
+# Loading work.alu_sv_unit
+# Loading work.alu
+# Loading work.gencc_sv_unit
+# Loading work.gencc
+# Loading work.br_adder_sv_unit
+# Loading work.br_adder
+# Loading work.ex_mem_reg_sv_unit
+# Loading work.ex_mem_reg
+# Loading work.forwarding_to_mem_sv_unit
+# Loading work.forwarding_to_mem
+# Loading work.mem_indirect_sv_unit
+# Loading work.mem_indirect
+# Loading work.cccomp
+# Loading work.jsr_adder_sv_unit
+# Loading work.jsr_adder
+# Loading work.branch_prediction_unit_sv_unit
+# Loading work.branch_prediction_unit
+# Loading work.dp_array_sv_unit
+# Loading work.dp_array
+# Loading work.mem_wb_reg_sv_unit
+# Loading work.mem_wb_reg
+# Loading work.wb_retain_sv_unit
+# Loading work.wb_retain
+# Loading work.magic_memory_dp
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(75): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_0'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/pcmux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(75): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/pcmux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(75): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/pcmux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(75): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/pcmux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(86): [PCDPC] - Port size (1) does not match connection size (32) for port 'clear'. The port definition is at: D:/undergrad_misc/ece411/mp3/register.sv(5).
+# 
+#         Region: /mp3_tb/dut/pc_reg
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(91): [PCDPC] - Port size (16) does not match connection size (32) for port 'pc_in'. The port definition is at: D:/undergrad_misc/ece411/mp3/if_id_reg.sv(8).
+# 
+#         Region: /mp3_tb/dut/if_id_reg_1
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(121): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/alumux
+# ** Warning: (vsim-3017) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [TFMPC] - Too few port connections. Expected 16, found 15.
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_3'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (2) does not match connection size (32) for port 'in_3'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (2) does not match connection size (32) for port 'in_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (2) does not match connection size (32) for port 'in_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [PCDPC] - Port size (2) does not match connection size (32) for port 'in_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/wmask_mux
+# ** Warning: (vsim-3722) D:/undergrad_misc/ece411/mp3/cpu.sv(159): [TFMPC] - Missing connection for port 'in_5'.
+# 
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(190): [PCDPC] - Port size (1) does not match connection size (32) for port 'clear'. The port definition is at: D:/undergrad_misc/ece411/mp3/register.sv(5).
+# 
+#         Region: /mp3_tb/dut/cc_reg
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(199): [PCDPC] - Port size (16) does not match connection size (32) for port 'from_source'. The port definition is at: D:/undergrad_misc/ece411/mp3/branch_prediction_unit.sv(6).
+# 
+#         Region: /mp3_tb/dut/branch_prediction_unit
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_3'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (1) does not match connection size (32) for port 'sel_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(3).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_3'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_4'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_5'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_6'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(218): [PCDPC] - Port size (16) does not match connection size (32) for port 'in_7'. The port definition is at: D:/undergrad_misc/ece411/mp3/decode_mux.sv(4).
+# 
+#         Region: /mp3_tb/dut/regfilemux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(222): [PCDPC] - Port size (3) does not match connection size (32) for port 'b'. The port definition is at: D:/undergrad_misc/ece411/mp3/mux2.sv(4).
+# 
+#         Region: /mp3_tb/dut/destReg_mux
+# ** Warning: (vsim-3015) D:/undergrad_misc/ece411/mp3/cpu.sv(224): [PCDPC] - Port size (1) does not match connection size (32) for port 'clear'. The port definition is at: D:/undergrad_misc/ece411/mp3/wb_retain.sv(7).
+# 
+#         Region: /mp3_tb/dut/wb_retain
+run 10us
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# End time: 09:34:49 on Oct 01,2016, Elapsed time: 0:06:13
+# Errors: 0, Warnings: 74
